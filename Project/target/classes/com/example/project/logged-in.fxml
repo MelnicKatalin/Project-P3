@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="810.0" prefWidth="1315.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.LoggedInController">
+   <children>
+      <Button fx:id="button_logout" layoutX="14.0" layoutY="748.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="122.0" style="-fx-background-color: #8B0000;" text="Log Out">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font></Button>
+      <ImageView fitHeight="172.0" fitWidth="333.0" layoutX="940.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@AMG-GT.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="172.0" fitWidth="358.0" layoutX="73.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@R8.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="224.0" fitWidth="344.0" layoutX="72.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@R35.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="223.0" fitWidth="344.0" layoutX="75.0" layoutY="490.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Supra.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="209.0" fitWidth="306.0" layoutX="941.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@911.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="211.0" fitWidth="313.0" layoutX="941.0" layoutY="497.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Civic.png" />
+         </image></ImageView>
+      <Label layoutX="448.0" layoutY="38.0" prefHeight="34.0" prefWidth="210.0" style="-fx-background-color: #8B0000;" text="         5.2 litre V10" textAlignment="CENTER" textFill="#faf8f8">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="448.0" layoutY="91.0" prefHeight="34.0" prefWidth="210.0" style="-fx-background-color: #8B0000;" text="   0-100 in 3.4 seconds" textFill="#f7f6f6">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="448.0" layoutY="145.0" prefHeight="34.0" prefWidth="210.0" style="-fx-background-color: #8B0000;" text=" R8 V10 GT RWD coupe" textFill="#f7f2f2">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font></Label>
+      <Label layoutX="673.0" layoutY="38.0" prefHeight="34.0" prefWidth="260.0" style="-fx-background-color: #8B0000;" text="Twin-turbocharged 4.0-litre V8" textFill="#fcfbfb">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="673.0" layoutY="91.0" prefHeight="34.0" prefWidth="260.0" style="-fx-background-color: #8B0000;" text="          0-100 in 3.2 seconds" textFill="#f7f4f4">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="673.0" layoutY="145.0" prefHeight="34.0" prefWidth="260.0" style="-fx-background-color: #8B0000;" text="        AMG-GT Black Series" textFill="#f7f4f4">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="453.0" layoutY="256.0" prefHeight="34.0" prefWidth="210.0" style="-fx-background-color: #8B0000;" text=" 3.8 litre twin-turbo V6" textFill="#f7f5f5">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="453.0" layoutY="310.0" prefHeight="34.0" prefWidth="210.0" style="-fx-background-color: #8B0000;" text="     0-100 in 3 seconds" textFill="#faf7f7">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="453.0" layoutY="371.0" prefHeight="34.0" prefWidth="210.0" style="-fx-background-color: #8B0000;" text="     GT-R Nismo R35" textFill="#f4f1f1">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="673.0" layoutY="256.0" prefHeight="34.0" prefWidth="260.0" style="-fx-background-color: #8B0000;" text="    4.0-litre naturally-aspirated " textFill="#f7f5f5">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="673.0" layoutY="310.0" prefHeight="34.0" prefWidth="260.0" style="-fx-background-color: #8B0000;" text="         0-100 in 3.3 seconds" textFill="#f7f5f5">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="673.0" layoutY="371.0" prefHeight="34.0" prefWidth="260.0" style="-fx-background-color: #8B0000;" text="               911 GT3-RS" textFill="#f7f5f5">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="453.0" layoutY="500.0" prefHeight="34.0" prefWidth="210.0" style="-fx-background-color: #8B0000;" text="    BMW B58 3.0 litre" textFill="#f7f4f4">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="453.0" layoutY="568.0" prefHeight="34.0" prefWidth="210.0" style="-fx-background-color: #8B0000;" text="    0-100 in 4.4 seconds" textFill="#f7f4f4">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="448.0" layoutY="638.0" prefHeight="34.0" prefWidth="210.0" style="-fx-background-color: #8B0000;" text="     Toyota Supra 2023" textFill="#f7f4f4">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="673.0" layoutY="500.0" prefHeight="34.0" prefWidth="260.0" style="-fx-background-color: #8B0000;" text="  2.0 litre four cylinder engine" textFill="#f7f4f4">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="673.0" layoutY="568.0" prefHeight="34.0" prefWidth="260.0" style="-fx-background-color: #8B0000;" text="         0-100 in 5.4 seconds" textFill="#f7f4f4">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="673.0" layoutY="638.0" prefHeight="34.0" prefWidth="260.0" style="-fx-background-color: #8B0000;" text="             Honda Civic 2023" textFill="#f7f4f4">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

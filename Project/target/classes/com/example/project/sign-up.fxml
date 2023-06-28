@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.SignUpController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;">
+         <children>
+            <ImageView fitHeight="167.0" fitWidth="198.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logof.png" />
+               </image></ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="405.0" style="-fx-background-color: #8B0000;">
+         <children>
+            <Label layoutX="14.0" layoutY="54.0" text="Username:" textFill="#faf6f6">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="119.0" text="Password:" textFill="#fcf9f9">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_username" layoutX="133.0" layoutY="52.0">
+               <font>
+                  <Font name="Bell MT Bold" size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tf_password" layoutX="133.0" layoutY="117.0" prefHeight="35.0" prefWidth="250.0">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="34.0" layoutY="185.0" text="Phone:" textFill="#faf8f8">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_phone" layoutX="133.0" layoutY="185.0">
+               <font>
+                  <Font name="Bell MT Bold" size="18.0" />
+               </font>
+            </TextField>
+            <Button fx:id="button_signup" layoutX="202.0" layoutY="257.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="111.0" style="-fx-background-color: #000000; -fx-cursor: hand;" text="SignUp!" textFill="#fafafa">
+               <font>
+                  <Font name="Bell MT Bold" size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="137.0" layoutY="363.0" text="Have an account?" textFill="#faf7f7">
+               <font>
+                  <Font name="Bell MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_login" layoutX="285.0" layoutY="360.0" mnemonicParsing="false" style="-fx-background-color: #000000; -fx-cursor: hand;" text="LogIn" textFill="#f4f3f3">
+               <font>
+                  <Font name="Bell MT Bold" size="14.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+   </children>
+</HBox>
